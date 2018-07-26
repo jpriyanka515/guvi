@@ -17,6 +17,6 @@ class Ideone
 		System.out.println("Even");
 	}
 	else
-	System.out.println("invalid");
+	System.out.println("Odd");
 	}
 }
