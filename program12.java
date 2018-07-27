@@ -9,15 +9,21 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-	int n,r,p=0;
+	int n,r,p=0,t;
 	Scanner S=new Scanner(System.in);
 	n=S.nextInt();
+	t=n;
 	while(n>0)
 	{
 		r=n%10;
 		n=n/10;
 		p=p*10+r;
 	}
+	if(t==p)
+	{
 	System.out.println("yes");
 	}
+	else
+	System.out.println("no");
+}
 }
