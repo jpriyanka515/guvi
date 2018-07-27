@@ -19,7 +19,7 @@ class Ideone
 			{
 				n++;
 			}
-			System.out.println(n);
+			System.out.println(\n n);
 		}
 	}
 }
