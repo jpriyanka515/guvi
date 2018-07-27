@@ -18,6 +18,6 @@ class Ideone
 		n=n/10;
 		p=p*10+r;
 	}
-	System.out.println(p);
+	System.out.println("yes");
 	}
 }
