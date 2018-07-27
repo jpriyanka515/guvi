@@ -9,11 +9,14 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		int n,k;
+		int n,k,r=1,i;
 		Scanner S=new Scanner(System.in);
 		n=S.nextInt();
 		k=S.nextInt();
-	double r=Math.pow(n,k);
+	for(i=0;i<n;i++)
+	{
+		r=r*n;
+	}
 		System.out.println(r);
 	}
 }
