@@ -13,10 +13,10 @@ class Ideone
 		Scanner S=new Scanner(System.in);
 		n=S.nextInt();
 		k=S.nextInt();
-	for(i=0;i<n;i++)
-	{
-		r=r*n;
-	}
+		for(i=0;i<k;i++)
+		{
+			r=r*n;
+		}
 		System.out.println(r);
 	}
 }
