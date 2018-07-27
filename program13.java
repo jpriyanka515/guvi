@@ -8,22 +8,22 @@ import java.io.*;
 class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
+{
+	int n,r=2;
+	Scanner S=new Scanner(System.in);
+	n=S.nextInt();
+	while(n>r)
 	{
-		int n,r=2;
-		Scanner S=new Scanner(System.in);
-		n=S.nextInt();
-		while(n>r)
+		if(n%r!=0)
 		{
-			if(n%r!=0)
-			{
-				r++;
-			}
-		}
-		if(n==r)
-		{
-			System.out.println("yes");
-		}
-		else
-		System.out.println("no");
+			r++;
+	    }
+    }
+    if(n==r)
+    {
+    	System.out.println("yes");
+    }
+    else
+    System.out.println("no");
 	}
 }
