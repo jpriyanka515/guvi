@@ -13,7 +13,7 @@ class Ideone
 		Scanner S=new Scanner(System.in);
 		n=S.nextInt();
 		k=S.nextInt();
-	int r=Math.pow(n,k);
+	double r=Math.pow(n,k);
 		System.out.println(r);
 	}
 }
