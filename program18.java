@@ -9,23 +9,31 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		int a,b,t=0,r,q,n;
-		Scanner S=new Scanner(System.in);
-		a=S.nextInt();
-		b=S.nextInt();
-		for(n=a+1;n<b;n++)
-		{
-			q=n;
-			while(n!=0)
-			{
-				r=n%10;
-				n=n/10;
-				t=t+r*r*r;
-			}
-			if(t==q)
-			{
-			System.out.println(t);
-			}
-		}
-	}
+
+        int low,high;
+        Scanner S=new Scanner(System.in);
+        low=S.nextInt();
+        high=S.nextInt();
+
+        for(int number = low + 1; number < high; ++number) {
+            int digits = 0;
+            int result = 0;
+            int originalNumber = number;
+            while (originalNumber != 0) {
+                originalNumber /= 10;
+                ++digits;
+            }
+
+            originalNumber = number;
+            while (originalNumber != 0) {
+                int remainder = originalNumber % 10;
+                result += Math.pow(remainder, digits);
+                originalNumber /= 10;
+            }
+
+            if (result == number)
+                System.out.print(number + " ");
+        }
+    }
 }
+
