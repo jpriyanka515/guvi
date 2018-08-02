@@ -15,7 +15,7 @@ class Ideone
 		for(r=1;r<=5;r++)
 		{
 			q=n*r;
-			System.out.println(q);
+			System.out.println(q+ "");
 			
 		}
 	}
