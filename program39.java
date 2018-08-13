@@ -9,16 +9,15 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		int n,i,max;
+		int n=10,i,max;
 		Scanner s=new Scanner(System.in);
-		n=s.nextInt();
-		int a[]=new int[n];
-		for(i=0;i<n;i++)
+		int a[]=new int[10];
+		for(i=0;i<10;i++)
 		{
 			a[i]=s.nextInt();
 		}
 		max=a[0];
-		for(i=1;i<n;i++)
+		for(i=1;i<10;i++)
 		{
 			if(max<a[i])
 			{
