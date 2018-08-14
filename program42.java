@@ -16,13 +16,17 @@ class Ideone
 		str2=S.next();
 		n1=str1.length();
 		n2=str2.length();
-		if(n1>=n2)
+		if(n1>n2)
 		{
 			System.out.println(str1);
 		}
-		else
+		else if
 		{
 			System.out.println(str2);
 		}
-	}
+		else
+		{
+			System.out.println(str2);	
+		}
+}
 }
