@@ -11,9 +11,9 @@ class Ideone
 	{
 		String str;
 		int k,i;
-		Scanner s=new Scanner(System.in);
-		str=s.nextLine();
-		k=s.nextInt();
+		Scanner S=new Scanner(System.in);
+		str=S.nextLine();
+		k=S.nextInt();
 		for(i=0;i<k;i++)
 		{
 			System.out.println(str);
