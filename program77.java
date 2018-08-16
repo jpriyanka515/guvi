@@ -16,7 +16,7 @@ class Ideone
 		{
 		if(n%r==0)
         {
-        	System.out.println(r);
+        	System.out.println(r+"\t");
         }
         r++;
 		}
