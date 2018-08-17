@@ -16,7 +16,7 @@ class Ideone
 		for(i=2;i<n;i++)
 		{
 			c=a+b;
-			System.out.println(c);
+			System.out.println("\t"+c);
 			a=b;
 			b=c;
 		}
