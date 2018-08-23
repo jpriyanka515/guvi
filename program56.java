@@ -26,11 +26,11 @@ class Ideone
 		}
 		if(count==0 || co==0)
 		{
-			System.out.println("no");
+			System.out.println("No");
 		}
 		else
 		{
-			System.out.println("yes");
+			System.out.println("Yes");
 		}
 	}
 }
