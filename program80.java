@@ -21,7 +21,7 @@ class Ideone
 		{
 			if(ch[i]%2!=0)
 			{   
-			System.out.println(ch[i]);
+			System.out.println(ch[i]+'');
 			}
 		}
 		
