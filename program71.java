@@ -9,22 +9,16 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		String str;
+		String str,rev="";
 		int n,i;
-		boolean flag=false;
 		Scanner s=new Scanner(System.in);
-		str=s.next();
+		str=s.nextLine();
 		n=str.length();
-		char[] ch=str.toCharArray();
-		for(i=0;i<n;i++)
+		for(i=n-1;i>=0;i--)
 		{
-			if(ch[i]==ch[n-1])
-			{
-				flag=true;
-			}
-			n--;
+	             rev=rev+str.charAt(i);
 		}
-		if(flag)
+		if(str.equals(rev))
 		{
 			System.out.println("yes");
 		}
