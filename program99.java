@@ -16,5 +16,6 @@ class Ideone
 		c=s.nextInt();
 		d=(a*b)%c;
 		System.out.println(d);
+		
 	}
 }
