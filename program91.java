@@ -16,7 +16,6 @@ class Ideone
 		c=s.nextInt();
 	            ts=2*((a*b)+(b*c)+(c*a));
 	            v=a*b*c;
-		System.out.println(ts);
-		System.out.println(v);
+		System.out.println(ts+""+v);
 	}
 }
