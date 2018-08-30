@@ -18,7 +18,7 @@ class Ideone
 		{
 			if(i%2==0)
 			{
-				System.out.println(ch[i]+" ");
+				System.out.println(ch[i]);
 			}
 		}
 		for(i=0;i<str.length();i++)
