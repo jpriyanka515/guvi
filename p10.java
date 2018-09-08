@@ -10,28 +10,25 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		String str1,str2;
-		int i,n;
-		boolean flag=false;
+		int i,n,v=0;
 		Scanner s=new Scanner(System.in);
 		str1=s.next();
 		str2=s.next();
-		char[] ch1=str1.toCharArray();
-		char[] ch2=str2.toCharArray();
 		n=str1.length();
 		for(i=0;i<n;i++)
 		{
-			if(ch1[i]!=ch2[i])
+			if(str1.charAt(i)!=str2.charAt(i))
 			{
-				flag=true;
+				v++;
 			}
 		}
-		if(flag)
+		if(v==1)
 		{
-			System.out.println("no");
+			System.out.println("yes");
 		}
 		else
 		{
-			System.out.println("yes");
+			System.out.println("no");
 		}
 		
 	}
