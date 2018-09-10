@@ -24,6 +24,7 @@ class Ideone
 			if(k==a[i])
 			{
 				flag=true;
+				break;
 			}
 			else
 			{
