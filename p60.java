@@ -15,22 +15,19 @@ class Ideone
 		str1=s.next();
 		str2=s.next();
 		n=str1.length();
+		boolean flag=true;
 		for(i=0;i<n;i++)
 		{
-	              for(j=i+1;j<n;j++)
-	              {
-                  if(str1.charAt(i)==str2.charAt(j))
+                  if(str1.charAt(i)==str2.charAt(i))
                   {
-                  	p++;
+                  	flag=false;
+			  System.out.println("yes");
                   	break;
                   }
-		}
-		}
-		if(p==1)
-		{
-			System.out.println("yes");
-		}
-		else
+			      else
+				      flag=true;
+		      }
+		if(flag)
 		{
 			System.out.println("no");
 		}
