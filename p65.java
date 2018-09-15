@@ -21,7 +21,7 @@ class Ideone
 		k=0;
 		for(i=0;i<n;i++)
 		{
-			if(n>=a[i])
+			if(n>a[i])
 			{
 				c[k]=a[i];
 				k++;
