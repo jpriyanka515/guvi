@@ -30,7 +30,7 @@ class Ideone
 		p=k;
 		for(k=0;k<p;k++)
 		{
-			System.out.println(c[k]);
+			System.out.println(c[k]+" ");
 		}
 	}
 }
