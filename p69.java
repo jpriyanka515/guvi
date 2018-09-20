@@ -22,7 +22,7 @@ class Ideone
 		}
 		for(i=0;i<p;i++)
 		{
-			System.out.println(a[i]);
+			System.out.println(a[i]+" ");
 		}
 		
 	}
